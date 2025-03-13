@@ -16,20 +16,15 @@ class MaskWidhget extends StatelessWidget {
     return Stack(
       alignment: Alignment.topCenter,
       children: [
-        Container(
-          color: Colors.black.withOpacity(0.7799999833106995),
-          width: double.infinity,
-          height: MediaQuery.of(context).size.height,
+        Positioned.fill(child:  Container(
+            color: Colors.black.withOpacity(0.7799999833106995),
+          ),
         ),
         SafeArea(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 22),
             child: Column(
               children: [
-                Gap(
-                  MediaQuery.of(context).size.height * 0.05 -
-                      MediaQuery.of(context).padding.top,
-                ),
                 Gap(10),
                 TextWithBorder(
                   screen.text,
@@ -100,7 +95,7 @@ enum Screen {
   Home(
     "🐺 Welcome to Wolf Survival!\n"
         "Sheriff Wolf is here to guide you through the art of survival! 🌵\n"
-        "But hold your horses, cowboy – this is *just for reference!* If you ever get lost in the wild, don’t rely on an app… use your brain (if you have one 😆)!\n"
+        "But hold your horses, cowboy – this is *just for reference!* If you ever get lost in the wild, don’t rely on an app… use your brain and paw!\n"
         "Choose your adventure: Calculator, Survivalist’s Diary, or take a Tour!",
     "isHome",
   ),

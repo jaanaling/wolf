@@ -88,13 +88,13 @@ class _ActionScreenState extends State<ActionScreen> {
                                 AppIcon(
                                   asset:
                                       IconProvider.progressBack.buildImageUrl(),
-                                  width: getWidth(context, baseSize: 220),
+                                  width: 220,
                                   fit: BoxFit.fitWidth,
                                 ),
                                 if (currentStep < widget.action.stages.length)
                                   Positioned(
                                     left:
-                                        -getWidth(context, baseSize: 220) *
+                                        -220*
                                         (1 -
                                             (currentStep /
                                                 widget
@@ -104,14 +104,14 @@ class _ActionScreenState extends State<ActionScreen> {
                                     child: AppIcon(
                                       asset:
                                           IconProvider.progress.buildImageUrl(),
-                                      width: getWidth(context, baseSize: 220),
+                                      width: 220,
                                       fit: BoxFit.fitWidth,
                                     ),
                                   )
                                 else
                                   AppIcon(
                                     asset: IconProvider.progress.buildImageUrl(),
-                                    width: getWidth(context, baseSize: 220),
+                                    width: 220,
                                     fit: BoxFit.fitWidth,
                                   ),
                               ],
@@ -136,7 +136,7 @@ class _ActionScreenState extends State<ActionScreen> {
                           ),
                         ],
                       ),
-                      const SizedBox(height: 45),
+
                     ],
                   ),
                 ),

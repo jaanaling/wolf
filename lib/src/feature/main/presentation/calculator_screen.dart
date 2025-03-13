@@ -58,7 +58,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               ),
               Gap(10),
               if (error.isNotEmpty)
-                TextWithBorder(error, fontSize: 32, color: Colors.red),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: TextWithBorder(error, fontSize: 32, color: Colors.red, textAlign: TextAlign.center,),
+                ),
 
               Spacer(),
               AppButton(
@@ -69,7 +72,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       int.parse(peopleController.text) <= 0) {
                     setState(() {
                       error =
-                          "And how am I supposed to calculate everything if you haven't entered anything?";
+                          "I won't be able to count anything if you don't enter anything.";
                     });
                     return;
                   }
@@ -128,7 +131,7 @@ void _showAlertDialog(
                 bottom: false,
                 child: Container(
                   width: getWidth(context, percent: 0.5),
-                  height: getHeight(context, percent: 0.5),
+                  height: 400,
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
                     image: DecorationImage(

@@ -18,7 +18,7 @@ class ArticleScreen extends StatelessWidget {
           AppAppBar(title: article.title),
           Container(
             width: getWidth(context, percent: 0.8),
-            height: getHeight(context, percent: 0.8),
+            height: getHeight(context, percent: 0.75),
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(IconProvider.window.buildImageUrl()),
@@ -26,7 +26,7 @@ class ArticleScreen extends StatelessWidget {
               ),
             ),
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(0, 8, 0,16),
+              padding: const EdgeInsets.fromLTRB(0, 2, 0,16),
               child: SingleChildScrollView(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(

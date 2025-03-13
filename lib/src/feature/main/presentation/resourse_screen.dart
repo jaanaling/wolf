@@ -81,7 +81,10 @@ class _ResourseScreenState extends State<ResourseScreen> {
                   ),
                   Gap(15),
                     if (error.isNotEmpty)
-                    TextWithBorder(error, fontSize: 32, color: Colors.red),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: TextWithBorder(error, fontSize: 32, color: Colors.red, textAlign: TextAlign.center,),
+                    ),
                   Spacer(),
                   AppButton(
                     onPressed: () {

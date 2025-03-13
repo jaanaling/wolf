@@ -1,0 +1,693 @@
+[
+    {
+      "id": 1,
+      "title": "Build Fire",
+      "description": "Fire is crucial for warmth, cooking, and safety. Always gather resources responsibly to protect the environment. Remember to prioritize fire safety before anything else.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Gather Tinder",
+          "description": "Search your surroundings for dry leaves, grass, or bark. Focus on collecting fine, lightweight materials that catch fire easily. Ensure everything is moisture-free to increase your chances of a successful ignition. Avoid damp or decaying vegetation since it will be harder to burn. Gather more tinder than you think you need to be prepared. Keep it in a dry place to prevent moisture buildup. If necessary, use small shavings from a stick as backup tinder. Clear a safe area before placing your tinder to reduce fire hazards. Organize your tinder in a loose bundle to promote airflow. Make sure your tinder pile is readily accessible for when you're ready to light it."
+        },
+        {
+          "number": 2,
+          "title": "Create Structure",
+          "description": "Form a small teepee with thin sticks around the tinder. Leave gaps between the sticks to allow air to circulate. Add thicker sticks in layers as you build height. Avoid packing the structure too tightly to ensure proper airflow. Check that your structure stands upright for easy lighting. Align everything carefully so the ignition can spread evenly. Place extra kindling nearby to feed the fire once it starts. Keep your larger logs ready to maintain the flame. Make sure there's sufficient space around the structure for safe ignition. Always keep a water source or extinguisher within reach."
+        },
+        {
+          "number": 3,
+          "title": "Ignite Flame",
+          "description": "Use a reliable ignition source like a lighter or matches if available. Alternatively, employ friction-based methods like a bow drill if tools are limited. Position your ignition source beneath the tinder to start the flame. Blow gently to provide oxygen without scattering materials. Once the tinder ignites, gradually add kindling to help it grow. Observe the fire's progression and adjust the airflow as needed. Slowly add larger pieces of wood once the flame stabilizes. Avoid overcrowding the fire so it can breathe. Continuously manage the fire by removing any hazardous debris nearby. Extinguish the fire completely with water or sand before leaving the site."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cook Meal",
+      "description": "Cooking is essential for safe food consumption. Proper preparation can prevent illness or parasites. Always verify your ingredients are suitable for eating.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Gather Ingredients",
+          "description": "Assess your environment for edible plants, insects, or caught game. Ensure each item is thoroughly inspected for signs of spoilage. Prioritize fresh sources of protein, like fish or small animals. Consider collecting seasonal berries and vegetables for balanced nutrition. Handle all raw items with clean hands or sanitized gloves. Wash produce with purified water if possible to remove dirt. Discard any questionable parts to avoid contamination. Separate different types of ingredients to keep flavors distinct. Gather enough to sustain you without overharvesting local resources. Place everything in secure containers to protect from pests."
+        },
+        {
+          "number": 2,
+          "title": "Prepare Tools",
+          "description": "Select suitable cookware if available, such as a metal pot or pan. Clean your tools thoroughly to remove old residue or bacteria. If no cookware is available, fashion makeshift containers from natural materials. Ensure you have utensils or improvised alternatives like sturdy sticks. Sharpen knives or cutting tools to make preparation safer. Keep a supply of clean water nearby for rinsing items. Lay out your tools in an organized manner within reach. Inspect your heat source, whether it's a campfire or portable stove. Gather extra firewood or fuel to maintain consistent heat. Always use caution when handling hot surfaces or open flames."
+        },
+        {
+          "number": 3,
+          "title": "Heat And Cook",
+          "description": "Build or ignite your chosen heat source in a safe environment. Place your pot or pan over a stable platform to prevent tipping. Add water or oil depending on your recipe's requirements. Carefully place your ingredients into the cooking vessel. Stir or rotate items regularly to ensure even heat distribution. Maintain a moderate flame to prevent scorching or undercooking. Use a lid if available to speed up the process. Test small samples to check if the food is fully cooked. Remove items that appear done to avoid overcooking. Serve the meal promptly and extinguish the heat source when finished."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Purify Water",
+      "description": "Clean water is vital for survival in the wild. Contaminated sources can lead to severe illness. Always treat unknown water before consumption.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Collect Source",
+          "description": "Search for running water like streams or rivers as your initial choice. Avoid stagnant puddles or muddy areas that may contain bacteria. Use a container or waterproof bag to gather the water. Skim off any debris floating on the surface. Check for any unusual odors or discoloration before collecting. Mark or remember the location for future refills if it's reliable. Try to gather water from the upper flow of a stream to reduce contamination. Keep the container sealed to minimize contamination during transport. Seek a shaded spot to prevent rapid bacterial growth from sunlight. Ensure that no animal carcasses or waste are near the water source."
+        },
+        {
+          "number": 2,
+          "title": "Boil Thoroughly",
+          "description": "Prepare a fire or use a portable stove for boiling. Transfer collected water into a heat-resistant container. Watch for rising bubbles that indicate the water is boiling. Maintain a rolling boil for at least one minute. Extend to three minutes at high altitude to kill pathogens. Avoid letting the water overflow onto the flames. Use caution when removing the container from the heat. Allow the water to cool before transferring it to a clean vessel. Keep boiled water separate from untreated water to prevent cross-contamination. Boiling effectively eliminates most bacteria, viruses, and parasites."
+        },
+        {
+          "number": 3,
+          "title": "Filter Properly",
+          "description": "Pass cooled water through a fine cloth or coffee filter to remove sediment. Use activated charcoal if available to reduce chemical impurities. Consider commercial water filters designed for backcountry use. Construct a makeshift filter with sand, gravel, and charcoal layers if necessary. Run the water slowly through your chosen filtration system for best results. Inspect the filtered water for any remaining debris or cloudiness. If the water is still unclear, repeat the process until satisfactory. Transfer filtered water into a clean, sealed container for storage. Label containers if you have multiple sources to track safety. Regularly clean or replace your filter parts to maintain effectiveness."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Make Shelter",
+      "description": "A sturdy shelter protects you from harsh weather and wild animals. Always choose a safe location before building. Use natural materials responsibly to preserve the environment.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Select Spot",
+          "description": "Look for high ground to avoid flooding. Choose an area away from unstable trees or falling rock hazards. Inspect the ground for signs of insects or burrows. Ensure the site has some natural windbreak like a fallen tree. Avoid riverbanks or dried creek beds that might flood. Assess nearby resources like branches and leaves for construction. Clear debris or sharp objects from the ground. Verify that you're not disturbing an animal's habitat. Plan for an exit path in case of sudden emergencies. Always consider weather patterns and potential hazards."
+        },
+        {
+          "number": 2,
+          "title": "Gather Materials",
+          "description": "Collect sturdy branches for the main frame of your shelter. Gather smaller sticks and flexible vines for binding joints. Look for large leaves or bark sheets for covering gaps. If available, use a tarp or poncho to reinforce the roof. Avoid stripping live trees excessively to prevent environmental damage. Inspect each piece for rot or insect infestation. Gather more materials than you think you'll need. Sort them by size for quick construction later. Store everything in a dry place if the weather is damp. Keep a few extra branches to patch holes in your shelter."
+        },
+        {
+          "number": 3,
+          "title": "Construct Frame",
+          "description": "Form a basic lean-to or A-frame using the largest branches. Prop them against a sturdy central support like a fallen log or two forked trees. Tie joints together with vines, rope, or improvised cordage. Leave enough space inside to lie down comfortably. Layer smaller sticks on the outer frame to create a lattice. Cover the frame with leaves, bark, or other materials to block wind and rain. Fill gaps with smaller twigs or moss for insulation. Reinforce the roof if heavy rain is expected. Check the stability of all supports before settling in. Continuously monitor and repair any weak points during your stay."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Find Food",
+      "description": "Locating reliable food sources is key for long-term survival. Always prioritize safety and avoid harmful species. Maintain a balanced approach to preserve the ecosystem.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Identify Sources",
+          "description": "Observe your surroundings for animal tracks or potential hunting spots. Search for edible plants such as berries, roots, or nuts. Investigate near water sources where wildlife is more abundant. Notice trees producing seeds or fruits. Look for signs of insect life if protein is scarce. Avoid unknown plants with milky sap or strong odors. Use field guides or prior knowledge to confirm edibility. Consider fish, crayfish, or mussels if near a stream or lake. Watch for birds and their nesting sites for possible egg collection. Always research or test minimally before consuming unfamiliar food."
+        },
+        {
+          "number": 2,
+          "title": "Set Priorities",
+          "description": "Estimate your daily caloric needs based on activity level. Focus on the most calorie-dense and easily accessible options first. Weigh the energy cost of hunting or gathering against nutritional returns. Prioritize protein sources like small game or fish. Fill gaps with plant-based foods to maintain variety. Avoid overharvesting a single location to preserve future resources. Rotate foraging areas to prevent depletion of one spot. Keep track of what's safe and what's questionable. Learn from local wildlife to identify abundant resources. Never risk your health by eating something you're unsure about."
+        },
+        {
+          "number": 3,
+          "title": "Harvest Sustainably",
+          "description": "Use humane traps or quick methods to minimize animal suffering. Collect only what you can eat or properly store. Gather plants selectively to allow regrowth. Avoid disturbing entire habitats for a single meal. Keep the environment in mind by leaving minimal impact. Never hunt or gather in prohibited conservation zones. Dispose of unwanted parts in a way that doesn't attract predators. Prepare and cook all meat thoroughly to eliminate pathogens. Wash or peel plants if possible to remove contaminants. Keep your food sources clean and well-documented for future reference."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Treat Wounds",
+      "description": "Proper first aid can prevent infection and complications. Cleanliness is critical in a survival scenario. Always monitor healing wounds for any warning signs.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stop Bleeding",
+          "description": "Apply direct pressure with a clean cloth or bandage. Elevate the injured area above the heart if possible. Keep steady pressure for several minutes without releasing. Use additional cloth layers if blood soaks through. Avoid removing the initial dressing to check; just add more on top. Remain calm and breathe steadily while applying pressure. If available, use sterile gauze or a commercial dressing. Secure the bandage snugly but not so tight that it cuts off circulation. Check the area beyond the wound for signs of numbness or discoloration. Seek professional help as soon as it's accessible."
+        },
+        {
+          "number": 2,
+          "title": "Clean Injury",
+          "description": "Rinse the wound with purified water to remove debris. If clean water is scarce, boil it first and let it cool. Avoid using unverified natural water sources for cleaning. Use mild soap if you have it, but rinse thoroughly. Pat the area gently to avoid causing more damage. Inspect the wound for dirt, insects, or foreign objects. If you see something embedded, remove it gently if it’s superficial. Do not dig deeply to remove items as this can worsen trauma. Keep the surrounding skin dry to prevent bacterial growth. Cleanliness significantly reduces the risk of infection."
+        },
+        {
+          "number": 3,
+          "title": "Dress And Monitor",
+          "description": "Apply an antibiotic ointment if available. Cover the wound with a sterile bandage or improvised clean cloth. Change the dressing regularly, at least once a day or if it becomes wet. Check for redness, swelling, or discharge indicating infection. Keep the wound as dry as possible to promote healing. Avoid unnecessary movement of the injured area to reduce stress. Elevate the wound slightly to minimize swelling. If pain increases or signs of infection appear, seek advanced medical care. Maintain overall hygiene to prevent contamination of the wound. Continuous attention is vital for a quick recovery."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Navigate Terrain",
+      "description": "Efficient navigation prevents getting lost and saves energy. Use all available tools, from the sun to maps. Stay aware of landmarks to maintain your bearings.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Plan Route",
+          "description": "Study a map or any references you have for the region. Identify critical landmarks like rivers or mountains. Consider the time of day and possible weather changes. Mark a tentative path that avoids dangerous areas. Decide on backup routes if obstacles appear. Calculate distance and estimate travel time conservatively. Keep track of water sources along the way. Inform someone of your plan if you can. Organize gear to match the expected terrain. Start early to make the most of daylight."
+        },
+        {
+          "number": 2,
+          "title": "Use Landmarks",
+          "description": "Spot prominent features like tall trees or rock formations. Check their alignment regularly to confirm your direction. Use the sun's position or watch method for east-west orientation. Keep track of shadows to gauge the time and heading. Watch for changes in vegetation as you move, indicating water or elevation. Maintain a mental or written log of your bearings. If lost, move to higher ground for a broader view. Remember to look back occasionally to note how the trail appears in reverse. Combine multiple clues, like wind patterns and moss growth, carefully. Always double-check crucial decisions to avoid compounding mistakes."
+        },
+        {
+          "number": 3,
+          "title": "Adjust Progress",
+          "description": "Stop periodically to confirm you’re still on track. Use a compass if available for more precise navigation. Compare the terrain to your map or mental image. Correct small deviations immediately rather than waiting. Mark safe checkpoints where you can regroup. Update your route if you encounter unexpected obstacles. Keep calm if you realize you might be off-course. Revisit your last known position and plan a new path. Prioritize safety over speed, especially in unfamiliar areas. Continuous awareness helps you adapt to shifting conditions."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Set Traps",
+      "description": "Trapping can secure consistent protein with minimal effort. Ensure traps are legal and ethical. Always check them regularly to avoid animal suffering.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Scout Location",
+          "description": "Look for animal tracks or droppings to identify common paths. Observe water sources where animals frequently visit. Examine natural funnels like trails or narrow passages. Check for nesting or den sites in the vicinity. Avoid setting traps near large predators' territories. Watch for fresh footprints that indicate recent activity. Mark these spots on a map or in your notes. Determine if the terrain can support the type of trap you plan. Be mindful of local regulations or protected areas. Choose a place with good camouflage for the trap."
+        },
+        {
+          "number": 2,
+          "title": "Select Trap",
+          "description": "Decide on the most suitable trap type based on target size and species. Consider snares for small game like rabbits. Use deadfall traps for slightly bigger animals if you have the skill. Ensure your trap materials are strong and reliable. Fashion triggers from sticks or other natural items. Test the mechanism to confirm it releases smoothly. Adjust tension to avoid false triggers or missed catches. Camouflage the trap with leaves or debris so it looks natural. Make sure it won't harm non-target species if possible. Always handle traps with caution to avoid injury."
+        },
+        {
+          "number": 3,
+          "title": "Bait And Monitor",
+          "description": "Use bait that appeals to the target animal, such as peanut butter or fruit for small mammals. Place the bait securely so it doesn't easily fall off. Cover your scent by wearing gloves or using local vegetation. Check the trap daily or more frequently if possible. Approach quietly to avoid spooking any caught animals. Be prepared to dispatch or release the animal humanely. Reset or replace the trap mechanism if disturbed. Record your success rate to identify effective techniques. Rotate trap locations to avoid over-harvesting an area. Keep the surrounding environment as undisturbed as possible."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Signal Rescue",
+      "description": "Attracting attention can drastically shorten survival scenarios. Use contrast, light, or sound to stand out. Always be prepared with multiple signaling methods.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Assess Resources",
+          "description": "Check if you have mirrors, flares, or bright-colored clothing. Collect reflective items like pieces of metal or shiny foil. Gather anything that can produce smoke, such as green leaves. Examine your flashlight or any electronic signaling device. Consider large tarps or blankets in vivid colors. Identify open spaces visible from the sky for potential signals. If you have a whistle, confirm it's functional. Use your phone's light or camera flash if battery permits. Think about an improvised loud noise, like banging rocks together. More resources increase your chances of being noticed."
+        },
+        {
+          "number": 2,
+          "title": "Create Contrast",
+          "description": "Find a clearing or elevated spot for maximum visibility. Arrange rocks or branches in a noticeable pattern, like SOS. Use bright fabrics or reflective surfaces to catch attention. Build a signal fire with dry wood and green branches for smoke. Form large letters on the ground if there's space. Wear contrasting clothing if search parties might see you. Wave a makeshift flag to draw the eye. Ensure your signals stand out against the natural backdrop. Refresh or reposition signals if they degrade over time. Stay near your signaling spot to respond quickly to rescuers."
+        },
+        {
+          "number": 3,
+          "title": "Maintain Awareness",
+          "description": "Remain vigilant for passing aircraft or vehicles. Listen for rescue teams calling out in the distance. Conserve energy but stay ready to signal at any moment. Keep your signaling tools accessible and in working order. Use short bursts with flares or mirrors to maximize visibility. Switch to different signal types if the initial attempt fails. Watch for changes in weather that could obscure your signals. Adapt your approach based on terrain or vegetation changes. If night falls, rely on light-based signals like flashlights or fire. Never give up on signaling until you are safely rescued."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Find Water",
+      "description": "Water is more critical than food for immediate survival. Seek reliable sources early. Always purify before consumption to avoid illness.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Search Clues",
+          "description": "Look for green vegetation or mossy areas indicating moisture. Observe animal tracks converging toward a potential water source. Listen for running water in valleys or canyons. Check rock crevices or hollows for collected rainwater. Follow birds during early morning or late evening flights. Examine damp riverbeds for subterranean pockets of water. Watch for insect activity around small pools or puddles. Notice condensation on leaves during the morning. Investigate base of cliffs where water might seep out. Always remain cautious with suspicious-looking water sources."
+        },
+        {
+          "number": 2,
+          "title": "Gather Safe",
+          "description": "Attempt to collect dew by tying cloth around your ankles and walking through grass. Squeeze out the moisture from the cloth into a container. Dig a small hole in damp soil to see if water accumulates. Use a plastic sheet to create a solar still for condensation. Avoid water with strong odors, discoloration, or chemical sheens. If near the coast, consider distilling saltwater with improvised methods. Inspect the area for dead animals which could indicate contamination. Test small sips if you’re desperate, but boiling is safer. Mark the location for future reference if it's reliable. Always plan for purification, even if the source looks clean."
+        },
+        {
+          "number": 3,
+          "title": "Store Properly",
+          "description": "Once collected, keep water in clean, sealed containers. Label containers if you have different sources. Never mix purified water with untreated water. Use sturdy vessels that won’t break or leak easily. Store them in a cool, dark place if possible. Check for algae or mold growth if storing long-term. Avoid letting containers freeze solid, which can cause cracks. Inspect regularly to ensure water remains uncontaminated. Plan consumption wisely to avoid running out unexpectedly. Safe storage is crucial for consistent hydration in the wild."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tie Knots",
+      "description": "Effective knots secure shelters and gear in survival. Practice various types for different purposes. Always ensure knot integrity to prevent accidents.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Choose Rope",
+          "description": "Identify the rope material you have, whether synthetic or natural fiber. Check for frays or weak spots before using. Cut a suitable length for your knot. Melt or tape the ends of synthetic rope to prevent unraveling. Store excess rope neatly to avoid tangling. Dry wet rope to maintain its strength. Replace worn rope if it shows significant damage. Keep a variety of thicknesses for different tasks. If necessary, improvise cordage from vines or clothing strips. Clean your rope regularly to remove dirt or debris."
+        },
+        {
+          "number": 2,
+          "title": "Learn Basics",
+          "description": "Practice simple knots like the square knot or clove hitch first. Understand each knot's purpose and load capacity. Tie and untie repeatedly to build muscle memory. Watch for mistakes such as crossing lines incorrectly. Keep knots neat and tight for maximum reliability. Adjust tension gradually rather than forcefully pulling. Experiment with half-hitches for quick gear securing. Learn the bowline for creating a fixed loop. Try the figure-eight knot to secure rope ends. Proper mastery of basics forms a foundation for advanced knots."
+        },
+        {
+          "number": 3,
+          "title": "Apply Correctly",
+          "description": "Choose the right knot for the task, whether it's lashing poles or creating a loop. Check tension periodically to ensure it remains secure. Untie and re-tie knots if they become loose or strained. Use carabiners or hooks if they align better with your setup. Keep knots in areas easily accessible in case you need to adjust. Avoid placing knots where friction is too high. Inspect them before trusting them with heavy loads. If in doubt, use redundant knots or backups. Label or color-code ropes if you have multiple uses. Continuous practice prevents knot failure in critical moments."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Sharpen Knife",
+      "description": "A sharp blade is safer and more efficient than a dull one. Maintain your knife regularly. Always handle sharpening tools with caution.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Gather Tools",
+          "description": "Acquire a whetstone or sharpening rod suitable for your blade. If unavailable, use a smooth river stone in an emergency. Ensure the surface is clean of dirt or grit. Secure a cloth or towel to wipe the blade. Prepare water or honing oil if required by your stone. Check your knife for significant damage or chips. Keep a stable surface to rest the stone. Consider wearing gloves for added safety. Do not rush as sharpening requires precision. Make sure your environment is well-lit to see the blade clearly."
+        },
+        {
+          "number": 2,
+          "title": "Angle And Stroke",
+          "description": "Hold the knife at the recommended angle, often around 20 degrees. Stroke the blade along the stone in a consistent motion. Maintain steady pressure but avoid pressing too hard. Flip the blade and repeat on the opposite side. Wet the stone periodically to keep friction low. Use the entire length of the stone for even wear. Avoid changing angles mid-stroke to prevent uneven edges. Continue until you achieve a burr along the blade's edge. Switch to a finer grit for honing if possible. Patience and consistency yield the sharpest results."
+        },
+        {
+          "number": 3,
+          "title": "Finish And Test",
+          "description": "Wipe the blade clean of metal filings or oil. Check the edge by slicing a thin sheet of paper. Inspect for any dull spots or irregularities. Strop the knife on leather or fabric if available. Handle the blade carefully to avoid accidental cuts. Repeat sharpening if the knife still feels dull. Store the knife safely away from moisture to prevent rust. Apply a light coat of oil if in a humid environment. Keep the sharpening tools clean and dry for future use. Regular upkeep ensures your knife remains a reliable survival tool."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Pack Gear",
+      "description": "Proper gear organization saves time and energy in the field. Keep essentials accessible. Distribute weight effectively to avoid strain.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "List Essentials",
+          "description": "Write down all critical items like shelter, water filter, and first aid kit. Include cooking tools, fire-starting devices, and navigation equipment. Remember extra clothing layers for unpredictable weather. Prioritize multi-purpose items to save space. Bring a headlamp or flashlight with extra batteries. Add cordage, duct tape, and a knife for repairs and construction. Pack high-calorie snacks like trail mix or energy bars. Don't forget personal medication and identification if needed. Be mindful of total pack weight versus your carrying capacity. Always check local regulations for restricted gear."
+        },
+        {
+          "number": 2,
+          "title": "Organize System",
+          "description": "Place heavy items closer to your back and center for better balance. Use compartments or zip-lock bags to group similar items. Keep frequently used gear in outer pockets. Separate clean clothes from dirty or wet items. Protect electronics or fragile gear with soft padding. Label bags if possible to quickly find what you need. Roll clothes to optimize space and reduce wrinkles. Use waterproof liners or garbage bags to keep gear dry. Clip smaller tools on external loops for quick access. Maintain consistency so you remember each item’s location."
+        },
+        {
+          "number": 3,
+          "title": "Check And Adjust",
+          "description": "Try on your loaded pack and walk around to test comfort. Adjust straps for a snug but not restrictive fit. Shift items if the pack leans too much or causes imbalance. Remove non-essentials if the pack is overly heavy. Ensure the waist belt sits on your hips for proper weight distribution. Tighten shoulder straps but allow enough slack for breathing. Make small adjustments as you travel to maintain comfort. Repack or reorganize if you notice repeated inconvenience. Always keep track of inventory to avoid losing items. Regular refinements lead to efficient packing over time."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Cross River",
+      "description": "Safely crossing water can be challenging. Evaluate depth and current strength. Take precautions to avoid slips or drowning.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Scout Crossing",
+          "description": "Look for the widest part where water flow might be slower. Evaluate the clarity to see submerged obstacles. Note any rapids, rocks, or logs that could cause accidents. Check the riverbank for stable entry and exit points. If water is too deep or fast, consider a safer route. Observe floating debris to gauge current speed. Plan an escape path if you slip. Use a pole or stick to measure depth and stability. Watch for signs of animal activity like beaver dams. Choose an alternative spot if conditions seem too risky."
+        },
+        {
+          "number": 2,
+          "title": "Secure Belongings",
+          "description": "Pack electronics and sensitive items in waterproof bags. Fasten your backpack securely and tighten all straps. Avoid loose clothing that could catch on debris. Remove boots or wear sturdy water shoes to maintain footing. Tie rope to large packs if you might need to pull them across. Keep an emergency whistle or signaling device in a pocket. Balance your load so it doesn't shift mid-crossing. If crossing in a group, plan to help each other. Use walking sticks or poles for additional support. Test your footing before committing to the crossing."
+        },
+        {
+          "number": 3,
+          "title": "Cross Carefully",
+          "description": "Enter the water slowly to gauge temperature and current force. Face upstream and shuffle sideways for better balance. Keep your knees slightly bent to absorb the flow. Plant each foot firmly before moving the other. Use a pole to probe the riverbed and support weight. Move in unison if crossing with companions. If you slip, don't panic; float on your back and angle toward shore. Stand up only when you can touch the bottom confidently. After reaching the far bank, check for injuries or lost items. Dry off quickly to prevent hypothermia if conditions are cold."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Climb Tree",
+      "description": "Tree climbing aids in scouting or retrieving resources. Assess the tree’s stability before ascending. Always prioritize personal safety.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Choose Tree",
+          "description": "Pick a sturdy, healthy tree with thick branches. Inspect for rotting or dead limbs. Look for a trunk that tapers gradually for easier climbing. Avoid trees with insect infestations or excessive sap. Check the ground area for slippery roots or obstacles. Estimate the height needed before you climb. Identify strong branches spaced closely for footholds. If possible, climb a tree you can safely descend as well. Plan an escape route if wildlife is present. Make sure your reason for climbing justifies the risk."
+        },
+        {
+          "number": 2,
+          "title": "Prepare Gear",
+          "description": "Wear shoes with good traction or go barefoot if that’s safer for grip. Remove loose jewelry or items that could snag. Secure your knife or tools in a backpack. Consider using a rope or harness if the climb is challenging. Wrap hands or wrists with cloth for better friction. Clear out any protruding nails or hazards. Warm up your arms and legs to prevent cramps. Inform a companion about your climb if available. Choose gloves with sufficient grip if bark is rough. Keep a safety knife accessible in case of entanglement."
+        },
+        {
+          "number": 3,
+          "title": "Ascend Safely",
+          "description": "Start by grabbing the lowest sturdy branch. Press your body weight against the trunk for extra support. Move one limb at a time, testing each branch before shifting your full weight. Maintain three points of contact at all times. Use your legs to power upward rather than relying solely on arms. Keep your center of gravity close to the trunk. Pause and scan the area for obstacles or weak branches. If the bark peels, find a more secure hold. Do not rush; deliberate movement reduces slips. Descend with equal care, facing the trunk whenever possible."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Avoid Animals",
+      "description": "Encounters with wildlife can be dangerous. Respect their habitat and boundaries. Defensive measures can prevent escalation.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Study Habits",
+          "description": "Research local wildlife behaviors if possible. Identify which animals are nocturnal or daytime roamers. Look for tracks or droppings to gauge recent activity. Understand warning signs like growling or hissing. Know which species are territorial or protective of offspring. Recognize safe distances for observation. Listen to your surroundings for rustling or calls. Monitor local food sources that attract animals. Be aware of seasonal changes in animal behavior. Knowledge is your best defense against surprise encounters."
+        },
+        {
+          "number": 2,
+          "title": "Store Food",
+          "description": "Keep your food sealed in airtight containers. Hang food supplies from a branch away from your shelter. Use bear canisters if in bear country. Avoid leaving scraps or wrappers around camp. Clean cooking areas thoroughly to remove odors. Dispose of waste by burying or burning, following local regulations. Never store snacks in your tent or sleeping bag. Keep utensils and dishes away from where you sleep. Use odor-proof bags for extra protection. Proper storage greatly reduces unwanted animal visits."
+        },
+        {
+          "number": 3,
+          "title": "React Calmly",
+          "description": "If you spot a wild animal, remain still or back away slowly. Avoid direct eye contact that might be interpreted as a challenge. Make yourself appear larger if it approaches aggressively. Use noise like clapping or shouting to scare off some species. If confronted by a predator, do not run unless it's a last resort. Understand specific responses for bears, cougars, or snakes. Give the animal a clear escape route to reduce tension. Use deterrent sprays or sticks only if you must. Call for help if the threat persists and you can do so safely. Always respect wildlife and avoid unnecessary risks."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Make Torch",
+      "description": "A torch provides light and can ward off predators. Use natural materials prudently. Secure the flame to avoid accidents.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Prepare Handle",
+          "description": "Find a sturdy branch about arm’s length. Strip off any twigs or leaves for a smooth surface. Look for wood that isn't rotten or too dry. Flatten one end if you can to hold burning material better. Remove splinters that might cause injury. Ensure it's comfortable to grip without strain. Check the branch for cracks that could break under heat. Carve shallow grooves to help binding materials stay in place. Keep an extra branch as a backup. A strong handle ensures a safer torch."
+        },
+        {
+          "number": 2,
+          "title": "Gather Fuel",
+          "description": "Collect resin-rich wood or pine sap if available. Find fibrous materials like cloth strips or bark for wrapping. Use dried moss or grass for initial ignition. Soak cloth in animal fat or oil if you have it. Consider using wax from candles if on hand. Avoid flammable chemicals that produce toxic fumes. Keep separate bundles of small kindling to feed the flame. Confirm no moisture remains in your chosen materials. Place them neatly in an accessible area. Test a small bundle to see how well it burns."
+        },
+        {
+          "number": 3,
+          "title": "Assemble Torch",
+          "description": "Wrap the top of the branch with fibrous material. Secure it with cord, wire, or vines tightly. Coat the wrapped area with resin, fat, or wax for longer burn time. Double-check the binding to prevent unraveling. Ignite the torch from the bottom of the wrapping. Hold it upright so melting substances drip downward. Maintain a safe distance from your body or flammable items. Carefully wave it to increase oxygen flow but avoid scattering sparks. Replace or rewrap materials if the flame weakens. Always extinguish fully before leaving it unattended."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Forage Plants",
+      "description": "Edible plants can supplement nutrition. Proper identification is crucial. Always test new plants with caution.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Identify Safely",
+          "description": "Study common edible plants in the region if you have a guide. Observe leaf shape, color, and any distinctive features. Smell the plant for familiar or foul odors. Avoid plants with milky or discolored sap unless certain. Steer clear of species with thorns or fine hairs that irritate skin. Beware of bright-colored berries that might be poisonous. Check for a known look-alike that is toxic. Never rely solely on taste or smell to confirm safety. Conduct the universal edibility test if uncertain. Identification mistakes can be lethal."
+        },
+        {
+          "number": 2,
+          "title": "Harvest Correctly",
+          "description": "Use a clean knife or scissors to cut leaves or stems. Gather only what you need to prevent ecological damage. Avoid uprooting entire plants to allow regrowth. Leave enough behind so the plant can reproduce. Keep your harvest separate from unknown species. Rinse and examine leaves for bugs or debris. Store them in a breathable container to prevent wilting. Check the plant for signs of pesticide if near farmland. Look for fresh, young leaves which are often more nutritious. Practice minimal impact for sustainable foraging."
+        },
+        {
+          "number": 3,
+          "title": "Prepare Safely",
+          "description": "Wash the plants thoroughly with purified water. Remove any discolored or damaged parts. Boil or cook if recommended to remove toxins or parasites. Taste a small portion first and wait for adverse reactions. Combine with other foods to improve flavor if bland. Avoid overcooking which can reduce nutritional value. Add spices or salt if available to enhance taste. Monitor yourself for signs of discomfort or allergy. Store leftovers in a clean, sealed container if possible. Proper preparation ensures maximum benefit with minimal risk."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Store Food",
+      "description": "Proper storage extends food lifespan. Prevent spoilage and pests with the right methods. Preservation ensures a reliable supply.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Sort Items",
+          "description": "Separate perishable items like fresh meat or fish. Group dry goods such as rice or beans together. Keep sealed packaged foods separate from opened ones. Inspect each item for spoilage or damage. Label them with collection dates if you have markers. Identify which foods need immediate attention. Avoid mixing raw meat with produce. Clear out any rotten pieces to prevent cross-contamination. Store each category in its designated container. Proper sorting is the first step to long-term storage."
+        },
+        {
+          "number": 2,
+          "title": "Choose Method",
+          "description": "Drying, smoking, and salting are common preservation techniques. Decide which method suits the type of food you have. Build a drying rack in a sunny or heated area. Smoke meat or fish over a low fire to remove moisture. Use salt curing if you have sufficient salt supply. Can or pickle if you have jars and vinegar. Keep track of how long each method is effective. Always maintain cleanliness during the process. Check the food regularly for mold or off smells. Different methods can be combined for extra safety."
+        },
+        {
+          "number": 3,
+          "title": "Protect Supply",
+          "description": "Store preserved food in airtight containers or sealed bags. Keep them in a cool, dry place away from direct sunlight. Elevate supplies off the ground to deter pests. Inspect regularly for signs of insects or rodents. Rotate your stock by using older items first. Keep a written or mental inventory of what's left. Repair or replace damaged containers immediately. Avoid exposing the food to extreme temperatures or humidity. Maintain strict hygiene around your storage area. A well-protected supply ensures you won't go hungry unexpectedly."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Make Cordage",
+      "description": "Improvised cordage can be vital for shelter, traps, or repairs. Use natural fibers whenever possible. Strong cordage expands your survival capabilities.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Find Fibers",
+          "description": "Look for plant materials like bark strips or tough grasses. Check dead yucca leaves or inner bark of cedar for strong fibers. Avoid brittle or rotten sources that break easily. Collect enough material to twist into usable lengths. Remove outer layers or debris to expose flexible strands. If needed, soak fibers in water for easier separation. Dry them partially to avoid mold growth. Keep an eye out for any pests or insects. Harvest responsibly to preserve the plant's life cycle. Sort fibers by thickness and length before starting."
+        },
+        {
+          "number": 2,
+          "title": "Prepare Strands",
+          "description": "Separate each fiber carefully to maximize strength. Gently pull and straighten them to remove knots. Trim any jagged ends that might weaken the cord. Combine strands of similar thickness for uniformity. Roll them between your palms to align the fibers. Lightly twist them so they hold together before braiding. Keep them slightly damp if they are prone to snapping. Test small bundles for tensile strength. Set aside fibers that are too short or weak. Proper preparation ensures a reliable final product."
+        },
+        {
+          "number": 3,
+          "title": "Twist And Braid",
+          "description": "Overlap two bundles at the midpoint to start a reverse wrap. Twist one bundle away from you and wrap it over the other. Continue this pattern, alternating sides for a consistent rope. Maintain even tension to avoid uneven thickness. Add new fibers by overlapping and twisting them into the rope. Periodically test the rope’s strength by pulling gently. Keep twisting until you reach the desired length. Tie off or loop the ends to prevent unraveling. Optionally braid multiple twisted strands for extra durability. Practice improves your skill and the cordage’s quality."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Signal Smoke",
+      "description": "Smoke signals can be seen over long distances. Plan carefully for visibility. Always prevent accidental wildfires.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Build Pit",
+          "description": "Select an open area away from dry brush or flammable materials. Dig a shallow pit to contain the fire. Surround the pit with rocks to prevent spread. Clear away leaves or debris within several feet. Ensure you have enough water or dirt nearby for extinguishing. Align your pit so wind carries the smoke upward and visible. Avoid building it under tree canopies that block the view. Test the pit with a small flame before a full signal. Keep it accessible so you can manage the fire easily. A stable pit is essential for a safe smoke signal."
+        },
+        {
+          "number": 2,
+          "title": "Prepare Fuel",
+          "description": "Gather dry wood for the initial flame. Collect green branches or fresh leaves for smoke production. Sort them into separate piles for quick access. Use a small starter fire with tinder and kindling. Once it’s established, add larger dry pieces. Introduce green materials gradually to produce thick smoke. Keep extra green fuel on hand to maintain smoke signals. Avoid toxic plants that emit harmful fumes. Wear gloves or use tongs when adding green fuel. Balance heat and moisture to sustain a dense smoke plume."
+        },
+        {
+          "number": 3,
+          "title": "Send Signals",
+          "description": "Wait for rescuers or aircraft to approach before sending big puffs. Create smoke bursts by briefly covering and uncovering the flame. Aim to form distinct columns or puffs to attract attention. Watch wind direction and adjust your approach. Do not leave the fire unattended while signaling. Use a blanket or tarp to control the smoke release timing. Maintain a steady supply of green material for consistency. Monitor the fire's intensity to avoid losing the flame. Extinguish completely with water or dirt when done. Properly timed signals can drastically improve your odds of rescue."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Craft Tools",
+      "description": "Improvised tools enhance self-sufficiency. Use sturdy materials for durability. Safe crafting prevents injuries during use.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Select Material",
+          "description": "Look for strong, non-brittle wood that can withstand force. Collect stones or rocks with sharp edges for cutting surfaces. Identify bone fragments if you need a makeshift needle or hook. Avoid materials that crack or crumble under slight pressure. Wash everything to remove dirt or organic residue. Check for hidden flaws like internal rotting or cracks. Keep a variety of shapes and sizes for diverse tools. Test the hardness of stones by striking them lightly. Discard items that chip too easily. Always gather more than you think you'll need."
+        },
+        {
+          "number": 2,
+          "title": "Shape And Refine",
+          "description": "Use a harder stone to chip edges off a softer rock, forming a blade. Sharpen the edge on a flat stone with water or oil if possible. Carve wood into handles, digging sticks, or spears. Sand rough surfaces with coarse leaves or abrasive stones. Continuously test your progress by using the tool lightly. Remove excess material gradually to avoid mistakes. Reinforce weak points with additional bindings or layers of resin. Smooth out sharp corners that could cause injuries. Check for comfort and grip before finalizing. Patience is key for a functional result."
+        },
+        {
+          "number": 3,
+          "title": "Assemble And Test",
+          "description": "Attach stone blades to wooden handles using cord or resin. Wrap tight to ensure the blade doesn't wobble. Insert bone needles into carved wooden spindles if needed. Test the tool gently to ensure it won’t break under stress. Adjust bindings or shape if you notice instability. Keep your hands and fingers clear during trial cuts or pokes. Clean off any debris from the new tool. Store tools in a dry place to prevent deterioration. Observe how it performs in actual tasks and refine if necessary. Responsible testing prevents injury and wasted resources."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Dry Clothes",
+      "description": "Wet clothing drains body heat and can lead to hypothermia. Speedy drying keeps you warm and comfortable. Plan safe methods to prevent accidental fires.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Remove Moisture",
+          "description": "Wring out garments thoroughly to expel excess water. Shake them vigorously to release trapped moisture. Press them between absorbent materials like towels or moss. If available, use a clean rock to gently beat out water. Avoid damaging delicate fabrics with excessive force. Flip them periodically to ensure even moisture removal. Remove pockets or liners to let air circulate. Keep your body moving while clothes are off to stay warm. Squeeze out water in a spot that won’t flood your shelter. Reducing initial dampness speeds up the overall drying process."
+        },
+        {
+          "number": 2,
+          "title": "Air Dry",
+          "description": "String a makeshift clothesline between two sturdy supports. Hang garments spaced out so air can pass through. Choose a sunny or breezy area for faster results. If safe, lay them on sun-warmed rocks. Check for insects or dirt if you place them on the ground. Keep track of the weather in case of sudden rain. Flip or rotate items to expose damp areas to the air. Avoid windy spots if clothes could blow away. Keep them elevated to deter animals. Air drying is gentle and conserves energy."
+        },
+        {
+          "number": 3,
+          "title": "Use Heat Carefully",
+          "description": "If using fire, maintain a safe distance to prevent scorching. Hang clothes on branches near the fire, but not directly above flames. Monitor frequently to avoid sparks. Remove items immediately if they begin to steam excessively. Rotate garments so all areas receive warmth. Be mindful of synthetic fabrics that can melt. Keep a container of water or sand ready for emergencies. Ensure the fire is small and controlled. Do not leave the drying setup unattended. Heat drying offers speed but demands constant vigilance."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Maintain Hygiene",
+      "description": "Personal hygiene prevents infections and illness. Small efforts make a big impact on health. Keep clean to boost morale and comfort.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Gather Supplies",
+          "description": "Collect soap or biodegradable alternatives if possible. Prepare enough clean water for a thorough wash. Use a washcloth or cloth scraps for scrubbing. If soap is unavailable, use sand or ash gently. Have a separate towel or cloth for drying. Keep a small container to store hygiene items. Include a toothbrush or substitute with a small twig. Pack any disinfectant or antibacterial wipes if you have them. Separate these items from food and cooking gear. The right supplies make daily cleaning easier."
+        },
+        {
+          "number": 2,
+          "title": "Clean Regularly",
+          "description": "Wash your hands before eating, cooking, or treating wounds. Clean your face to remove sweat and dirt. Rinse your feet daily to prevent fungal infections. Brush teeth or scrub them with a twig at least once a day. Bathe when possible, focusing on key areas like armpits and groin. Use warm water if available to improve cleaning efficiency. Avoid contaminating water sources by washing downstream. Dry off thoroughly to reduce bacterial growth. Wash clothes and bedding periodically to remove odors. Consistency keeps germs at bay."
+        },
+        {
+          "number": 3,
+          "title": "Disposal Methods",
+          "description": "Use a designated latrine spot at least 200 feet from water. Bury waste at least 6-8 inches deep. Cover it fully to prevent animals from digging. Pack out toilet paper if it’s non-biodegradable. Burn or bury biodegradable paper carefully. Keep waste areas downwind from your shelter. Disinfect your hands thoroughly afterward. Avoid using communal water sources for personal washing. Mark or fence off latrine sites if staying long-term. Proper waste disposal prevents contamination and disease."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Stay Warm",
+      "description": "Maintaining body temperature is critical for survival. Combine shelter, clothing, and heat sources. Monitor for signs of hypothermia.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Layer Clothing",
+          "description": "Wear multiple layers to trap body heat. Start with moisture-wicking base layers to stay dry. Add insulating middle layers like fleece or wool. Top it off with a windproof or waterproof outer layer. Adjust layers based on activity level to prevent sweating. Keep extremities covered with gloves, hats, and warm socks. Avoid cotton that retains moisture. Remove damp clothes immediately to dry them. Look for alternative insulation like leaves or newspaper. Layering is your first line of defense against the cold."
+        },
+        {
+          "number": 2,
+          "title": "Insulate Shelter",
+          "description": "Add extra branches or leaves to thicken walls. Use moss or grasses to fill small gaps. Position your shelter against natural windbreaks. Elevate your sleeping area with bedding or a raised platform. Block openings with ponchos or spare cloth. Reflect heat inward with rocks placed around a fire. Avoid sleeping directly on cold ground by using improvised insulation. Check the structure regularly for drafts. Keep a small vent for airflow to prevent condensation buildup. A well-insulated shelter drastically improves warmth."
+        },
+        {
+          "number": 3,
+          "title": "Generate Heat",
+          "description": "Build a safe fire near your shelter if possible. Place heated rocks inside your sleeping area for residual warmth. Do light exercises before sleep to increase body temperature. Conserve energy by minimizing unnecessary movement. Drink warm fluids if you have a safe water source. Avoid caffeine or alcohol as they can affect circulation. Use hot water bottles or canteens if available. Share body heat with a companion if needed. Keep your head and neck covered as most heat escapes there. Continuous efforts help maintain a stable core temperature."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Prepare Signals",
+      "description": "Preemptive planning aids quick rescue. Keep materials ready in case aircraft or help passes by. Being prepared saves precious time.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Gather Materials",
+          "description": "Collect bright or reflective objects for visual signals. Store a whistle or air horn for audible alerts. Keep kindling and green branches for smoke signals. Prepare a sturdy mirror, foil, or polished metal. If possible, have flares or glow sticks ready. Note your battery levels for electronic devices. Separate these items from general gear for easy access. Wrap them in waterproof material to preserve functionality. Mark a dedicated spot in your pack for these tools. Availability at short notice is crucial."
+        },
+        {
+          "number": 2,
+          "title": "Pre-Arrange Spots",
+          "description": "Pick open clearings for signal fires. Mark wide, flat ground for large visual markers like SOS. Identify vantage points for mirror flashes toward potential rescuers. Keep these sites free from debris or hazards. Create makeshift signs with rocks or logs. Trim surrounding vegetation to avoid blocking visibility. Use a tree or stake as a mount for flags or bright cloth. Familiarize yourself with any local flight paths if known. Prepare multiple spots in case of changing conditions. Strategically placed areas increase your chance of detection."
+        },
+        {
+          "number": 3,
+          "title": "Practice Deployment",
+          "description": "Rehearse setting up a quick smoke fire. Time how fast you can gather your signaling gear. Learn how to angle your mirror for best reflection. Blow a whistle in different patterns for attention. Test your flares to ensure they ignite properly. Experiment with different fabric colors in day or night. Determine the best way to create large ground symbols. Identify potential problems like strong winds or rain. Keep notes on improvements needed. Practice builds confidence and efficiency in emergencies."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Repair Gear",
+      "description": "Damaged gear can compromise survival. Quick fixes extend usefulness. Always maintain your equipment in field conditions.",
+      "daytime": 2,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Diagnose Problem",
+          "description": "Inspect the item thoroughly for visible wear or breaks. Check for loose stitches, tears, or missing components. Identify the root cause, like friction or impact damage. Determine if the damage is critical or cosmetic. Prioritize repairs that affect functionality the most. Investigate if the environment will worsen the issue. Estimate the resources required for a proper fix. Note any tools or materials you lack. Decide whether a temporary patch or permanent repair is needed. Knowing the problem ensures efficient solutions."
+        },
+        {
+          "number": 2,
+          "title": "Gather Resources",
+          "description": "Collect patches or fabrics from spare clothes if necessary. Keep needles, thread, and duct tape in a repair kit. Use natural alternatives like sinew or sturdy vines for stitching. Find adhesives or resin to seal small cracks. Select wooden splints or metal rods to reinforce structures. Prepare sandpaper or rough stones to smooth surfaces. Boil water to soften plastic or shape materials. Gather nails or wire if you have them. Keep a reliable cutting tool on hand for shaping. Having the right resources makes repairs easier."
+        },
+        {
+          "number": 3,
+          "title": "Execute Fix",
+          "description": "Clean and dry the area before applying patches. Stitch tears with even tension to avoid re-tearing. Apply adhesives carefully, allowing proper drying time. Reinforce joints by overlapping patches or supports. Test the repaired item gently to confirm durability. Repeat or reinforce if the fix fails under slight stress. Trim any excess or loose strings to avoid snags. Seal edges to prevent water penetration. Store your fixed gear in a safe spot when not in use. Timely and thorough repairs restore equipment reliability."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Extinguish Fire",
+      "description": "Properly extinguishing a fire prevents wildfires and accidents. Always end a campfire responsibly. Double-check safety to protect nature.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Stop Fuel",
+          "description": "Cease adding wood or fuel to the fire well before you plan to leave. Allow the remaining wood to burn down to ash or small embers. Spread out the coals to speed cooling. Avoid large unburned logs if possible. Use a stick to separate clumps of embers. Continue monitoring until the flames subside. Plan enough time so embers cool naturally. Keep children or pets away from the dying fire. Observe wind direction that could reignite embers. Minimizing active fuel makes final steps easier."
+        },
+        {
+          "number": 2,
+          "title": "Douse Completely",
+          "description": "Pour water slowly on the fire, starting at the edges. Stir the ashes with a stick while applying water. Aim for steam, not smoke, as an indicator of cooling. Pay attention to hidden embers under rocks or logs. Repeat until hissing and steaming stop. If water is limited, use sand or dirt as an alternative. Smother the fire area thoroughly, turning over coals. Avoid inhaling steam or ash particles while stirring. Spread out wet coals for faster cooling. Drowning the fire is key to preventing flare-ups."
+        },
+        {
+          "number": 3,
+          "title": "Check Temperature",
+          "description": "Place the back of your hand near the extinguished site carefully. Ensure there’s no warmth or heat rising from the ashes. Lift any large logs to see if embers hide beneath. Move soil or sand around to expose buried coals. Keep applying water or dirt if you feel heat. Wait several minutes and recheck the same spots. Look for smoke or steam indicating residual heat. Only leave when you’re certain everything is cold. No glowing embers should remain in daylight or dark. A thorough check is your responsibility to the environment."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Plan Escape",
+      "description": "Unexpected situations may require quick evacuation. Having a plan ensures safety. Keep essential items ready for a hasty exit.",
+      "daytime": 1,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Assess Risks",
+          "description": "Identify threats like wildfires, flash floods, or predators. Determine the likeliest scenario based on location and weather. Evaluate the stability of your shelter and resources. Monitor weather updates or environmental changes regularly. Note any barriers like cliffs or deep ravines on your route. Stay updated on local alerts if you have communication tools. Plan your moves before panic sets in. Consider how to secure or hide valuables if you must leave them. Keep mental tabs on alternative safe zones. A clear risk assessment guides your escape plan."
+        },
+        {
+          "number": 2,
+          "title": "Pack Essentials",
+          "description": "Have a grab bag with food, water, and basic shelter items. Include a first aid kit and personal medication. Keep important documents or identification if available. Carry fire-starting tools and a flashlight with spare batteries. Secure navigation aids like maps or a compass. Bring extra clothing layers for sudden weather changes. Minimize weight to travel quickly. Store these items at the entrance of your shelter for rapid access. Check supplies periodically to ensure readiness. A concise kit speeds up evacuation."
+        },
+        {
+          "number": 3,
+          "title": "Designate Routes",
+          "description": "Plan multiple exit paths in different directions. Identify safe checkpoints along each route. Use landmarks or ribbons to mark key junctions. Avoid areas prone to landslides or falling trees. Estimate travel time to each exit under stressful conditions. If in a group, assign roles for leading or carrying supplies. Share the escape routes with everyone involved. Keep communication methods like whistles to coordinate. Practice a brief drill or walk-through if possible. Prepared routes reduce confusion during an actual emergency."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Stay Positive",
+      "description": "Mental resilience is vital in survival scenarios. Maintain hope and focus. A strong mindset can overcome physical challenges.",
+      "daytime": 3,
+      "stages": [
+        {
+          "number": 1,
+          "title": "Set Goals",
+          "description": "Break down tasks into small achievable steps. Identify daily objectives like gathering wood or checking traps. Create a routine to maintain structure. Celebrate minor successes to boost morale. Track your progress in a journal if you can. Adapt goals as situations change to stay realistic. Share these goals with companions for mutual motivation. Aim for consistency rather than perfection. Keep looking forward instead of dwelling on setbacks. Setting goals provides direction and a sense of purpose."
+        },
+        {
+          "number": 2,
+          "title": "Manage Stress",
+          "description": "Practice deep breathing exercises to calm your mind. Focus on tasks at hand to prevent anxiety from spiraling. Use visualization techniques to picture successful outcomes. Find time for short breaks to relax body and mind. Communicate your feelings if in a group setting. Keep optimism alive by recalling past obstacles overcome. Acknowledge fear but do not let it paralyze you. Create or engage in small hobbies to occupy idle time. Laugh or share stories to lighten the mood. Constant stress management preserves mental clarity."
+        },
+        {
+          "number": 3,
+          "title": "Maintain Hope",
+          "description": "Remind yourself of reasons to survive, like family or future plans. Look for beauty or small blessings in your environment. Reflect on positive memories and supportive relationships. Reinforce confidence by recalling your survival skills and experiences. Embrace adversity as a chance to learn and grow stronger. Encourage others around you to foster a supportive atmosphere. Stay curious about the local flora and fauna to stave off despair. Keep a lookout for any sign of rescue or external help. Focus on what you can control, not on what you can't. Hope keeps you going when physical resources wane."
+        }
+      ]
+    }
+  ]
+  

@@ -36,42 +36,34 @@ class _ActionScreenState extends State<ActionScreen> {
               children: [
                 AppAppBar(title: widget.action.title),
                 Gap(16),
-             
+
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 14),
                   child: Column(
                     children: [
-              
-                      ListView.separated(
-                        itemCount: widget.action.stages.length,
-                        separatorBuilder:
-                            (context, index) => const SizedBox(height: 16),
-                        shrinkWrap: true,
-                        physics: const NeverScrollableScrollPhysics(),
-                        itemBuilder: (context, index) {
-                          return _buildStepItem(
-                            stepNumber: index + 1,
-                            text: widget.action.stages[index].title,
-                            visible: currentStep - 1 >= index,
-                          );
-                        },
+                      _buildStepItem(
+                        stepNumber: id + 1,
+                        text: widget.action.stages[id].title,
+                        visible: currentStep - 1 >= id,
                       ),
                       const SizedBox(height: 16),
                       Container(
-                        height: getHeight(context, percent: 0.3),
+                        height: getHeight(context, percent: 0.5),
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(
-                              IconProvider.box.buildImageUrl(),
-                            ),
+                            image: AssetImage(IconProvider.box.buildImageUrl()),
                             fit: BoxFit.fill,
                           ),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 4),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 22,
+                            vertical: 4,
+                          ),
                           child: SingleChildScrollView(
-                               padding: const EdgeInsets.symmetric(vertical: 30),
+                            padding: const EdgeInsets.symmetric(vertical: 30),
                             child: TextWithBorder(
+                              textAlign: TextAlign.center,
                               widget.action.stages[id].description,
                             ),
                           ),
@@ -79,43 +71,24 @@ class _ActionScreenState extends State<ActionScreen> {
                       ),
                       const SizedBox(height: 30),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(18),
-                            child: Stack(
-                              alignment: Alignment.center,
-                              children: [
-                                AppIcon(
-                                  asset:
-                                      IconProvider.progressBack.buildImageUrl(),
-                                  width: getWidth(context, baseSize: 220),
-                                  fit: BoxFit.fitWidth,
-                                ),
-                                if (currentStep < widget.action.stages.length)
-                                  Positioned(
-                                    left:
-                                        -getWidth(context, baseSize: 220) *
-                                        (1 -
-                                            (currentStep /
-                                                widget
-                                                    .action
-                                                    .stages
-                                                    .length)), // Настроить позицию
-                                    child: AppIcon(
-                                      asset:
-                                          IconProvider.progress.buildImageUrl(),
-                                      width: getWidth(context, baseSize: 220),
-                                      fit: BoxFit.fitWidth,
-                                    ),
-                                  )
-                                else
-                                  AppIcon(
-                                    asset: IconProvider.progress.buildImageUrl(),
-                                    width: getWidth(context, baseSize: 220),
-                                    fit: BoxFit.fitWidth,
-                                  ),
-                              ],
-                            ),
+                          AppButton(
+                            text: "<",
+                            style: ButtonColors.green,
+                            onPressed: () {
+                              if (currentStep == 1) {
+                                return;
+                              }
+
+                              currentStep--;
+                              if (currentStep > 0) {
+                                id--;
+                              }
+                              setState(() {
+                                isFinal = false;
+                              });
+                            },
                           ),
                           const SizedBox(width: 16),
                           AppButton(
@@ -123,7 +96,8 @@ class _ActionScreenState extends State<ActionScreen> {
                             style: ButtonColors.green,
                             onPressed: () {
                               currentStep++;
-                              if (currentStep < widget.action.stages.length + 1) {
+                              if (currentStep <
+                                  widget.action.stages.length + 1) {
                                 id++;
                               }
                               setState(() {

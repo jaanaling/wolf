@@ -137,13 +137,13 @@ void _showAlertDialog(BuildContext context) {
                           controller: controller,
                           maxLines: 5,
                           title: "note",
-                          keyboardType: TextInputType.number,
+                          keyboardType: TextInputType.text,
                         ),
                         text: "",
                       ),
                       Gap(10),
                       if (error.isNotEmpty)
-                      TextWithBorder(error, fontSize: 32, color: Colors.red),
+                      TextWithBorder(error, fontSize: 32, color: Colors.red, textAlign: TextAlign.center,),
                       Gap(10),
 
                       Row(
@@ -169,7 +169,7 @@ void _showAlertDialog(BuildContext context) {
                               if (controller.text.isEmpty) {
                                 setState(() {
                                   error =
-                                      "Hey, have you forgotten how to write?";
+                                      "Hey, did you forget what you wanted to write?";
                                 });
                                 return;
                               }

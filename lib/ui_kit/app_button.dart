@@ -32,12 +32,12 @@ class AppButton extends StatelessWidget {
         width:
             width ??
             (isRound
-                ? getWidth(context, baseSize: 72)
+                ? 72
                 : getWidth(context, baseSize: 292)),
         height:
             height ??
             (isRound
-                ? getWidth(context, baseSize: 72)
+                ? 72
                 : style.colors != null
                 ? getHeight(context, baseSize: 73)
                 : getHeight(context, baseSize: 104)),

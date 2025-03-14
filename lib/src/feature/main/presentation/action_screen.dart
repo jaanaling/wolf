@@ -110,7 +110,7 @@ class _ActionScreenState extends State<ActionScreen> {
                           ),
                         ],
                       ),
-                      const SizedBox(height: 45),
+
                     ],
                   ),
                 ),

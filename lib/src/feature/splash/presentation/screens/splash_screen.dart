@@ -64,12 +64,9 @@ class _SplashScreenState extends State<SplashScreen> {
                 height: getHeight(context, percent: 0.7),
               ),
           
-              Positioned(
-                bottom: height * 0.036 + MediaQuery.of(context).padding.bottom,
-                child: const LinearProgressIndicator(
-                  backgroundColor: Color(0xfff4dfa7),
-                  color: Color(0xFF650E24),
-                ),
+              const LinearProgressIndicator(
+                backgroundColor: Color(0xfff4dfa7),
+                color: Color(0xFF650E24),
               ),
             ],
           ),
